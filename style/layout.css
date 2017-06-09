@@ -6,7 +6,7 @@ body{
 	background: url(../images/bg_body.png) repeat-x;
 	border-top: 5px solid #0FA8E7
 }
-#header{
+.header{
 	width: 960px;
 	height: 100px
 	margin: 0 auto 0 auto;
@@ -14,13 +14,23 @@ body{
 	
 
 }
-#logo, #slogan, #language, #contact_info {
+.logo, .slogan, .language, .contact_info {
 	margin-top: 20px;
 	float: left;
 }
-#logo{
+.logo{
 
 }
-#slogan, #language, #contact_info {
+.slogan, .language, .contact_info {
 	margin-left: 20px;
 	}
+.language {
+	font-style: italic
+	width: 40px;
+	height: 40px;
+	border: 1px;
+}
+.contact-info {
+	font-style: italic
+}
+
